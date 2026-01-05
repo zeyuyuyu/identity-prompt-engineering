@@ -9,14 +9,6 @@ ENV/
 env/
 .venv/
 
-# Experiment outputs (can be large)
-results.json
-demo_results.json
-qualitative_report.md
-
-# Visualizations (regenerable)
-*.png
-
 # IDE
 .idea/
 .vscode/
@@ -31,3 +23,8 @@ qualitative_report.md
 # Jupyter
 .ipynb_checkpoints/
 
+# Keep experiment results - DO NOT IGNORE
+# results.json
+# demo_results.json
+# qualitative_report.md
+# *.png
